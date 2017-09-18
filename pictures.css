@@ -1,0 +1,35 @@
+
+body {
+	padding-top: 20vh;
+	background-color: #000000;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+/* If the viewport width is AT LEAST 300 pixels wide (viewport width >= 300px), the image below is displayed */
+@media screen and (min-width: 300px) {
+	img {
+		content:url(images/gundalf.jpg);
+	}
+}
+
+@media screen and (min-width: 400px) {
+	img {
+		content:url(images/fivefingershine.jpg);
+	}
+}
+
+@media screen and (min-width: 500px) {
+	img {
+		content:url(images/evening-star.JPG);
+	}
+}
+
+@media screen and (min-width: 1500px) {
+	img {
+		content:url(images/rwby-7.jpg);
+	}
+}

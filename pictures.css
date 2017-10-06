@@ -29,11 +29,6 @@ img {
 }
 @media screen and (min-width: 1000px) {
 	img {
-		content:url(images/22.JPG);
-	}
-}
-@media screen and (min-width: 1500px) {
-	img {
 		content:url(images/rwby-7.jpg);
 	}
 }
